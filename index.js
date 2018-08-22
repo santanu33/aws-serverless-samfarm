@@ -12,7 +12,7 @@ exports.handler = (event, context, callback) => {
     var samCount = 1;
 
     // Or you can update your Lambda function's environment variable.
-    var samMultiplier = 15;
+    var samMultiplier = 2;
 
     var totalSAMs = samCount * samMultiplier;
 
